@@ -1,0 +1,103 @@
+Please enter matrix calc command:
+
+ERROR - Command "unknown_command" does not exist , try again.
+
+ERROR - No Matrix entered, try again.
+
+ERROR - Matrix does not exist , try again.
+
+OK.
+
+ERROR - invalid number entered. try again.
+
+OK.
+
+OK.
+
+OK.
+
+ERROR - No Matrix entered, try again.
+
+ERROR - Matrix does not exist , try again.
+
+Matrix mat_b:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+Matrix mat_f:
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+
+Matrix mat_e:
+1.5 2.5 3.5 4.5 
+5.5 6.5 7.5 8.5 
+9.5 10.5 11.5 12.5 
+13.5 14.5 15.5 16.5 
+
+Matrix mat_d:
+13.5 14.5 15.5 16.5 
+5.5 6.5 7.5 8.5 
+9.5 10.5 11.5 12.5 
+13.5 14.5 15.5 16.5 
+
+Matrix mat_c:
+1 2 3 4 
+5 6 7 8 
+9 10 0 0 
+0 0 0 0 
+
+ERROR - Matrix A is missing, try again.
+
+ERROR - Matrix B is missing, try again.
+
+ERROR - Matrix C is missing, try again.
+
+OK.
+
+Matrix mat_f:
+1 2 3 4 
+5 6 7 8 
+9 10 1 2 
+3 4 5 6 
+
+OK.
+
+Matrix mat_a:
+0 0 0 0 
+0 0 0 0 
+0 0 1 2 
+3 4 5 6 
+
+OK.
+
+Matrix mat_f:
+0 0 0 0 
+0 0 0 0 
+0 0 2 4 
+6 8 10 12 
+
+OK.
+
+OK.
+
+OK.
+
+Matrix mat_c:
+2 2 2 2 
+4 4 4 4 
+6 6 6 6 
+8 8 8 8 
+
+OK.
+
+Matrix mat_a:
+2 4 6 8 
+2 4 6 8 
+2 4 6 8 
+2 4 6 8 
+
+Program stopped by user request.

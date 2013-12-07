@@ -1,0 +1,62 @@
+unknown_command mat_a,9,9,9,9
+
+read_mat
+
+read_mat unknown_matrix,1,2,3
+
+read_mat mat_a,0,0,0,0,0,0,0,0,0,0,1,2,3,4,5,6
+
+read_mat mat_b,1,2,#,4,5,6
+
+read_mat mat_c,1,2,3,4,5,6,7,8,9,10
+
+read_mat mat_d,13.5,14.5,15.5,16.5,5.5,6.5,7.5,8.5,9.5,10.5,11.5,12.5,13.5,14.5,15.5,16.5
+
+read_mat mat_e,1.5,2.5,3.5,4.5,5.5,6.5,7.5,8.5,9.5,10.5,11.5,12.5,13.5,14.5,15.5,16.5,99.5
+
+print_mat
+
+print_mat unknown_matrix
+
+print_mat mat_b
+
+print_mat mat_f
+
+print_mat mat_e
+
+print_mat mat_d
+
+print_mat mat_c
+
+add_mat
+
+add_mat mat_a
+
+add_mat mat_a, mat_b
+
+add_mat mat_a, mat_c, mat_f
+
+print_mat mat_f
+
+sub_mat mat_f, mat_c, mat_a
+
+print_mat mat_a
+
+mul_scalar mat_a 2 mat_f
+
+print_mat mat_f
+
+read_mat mat_a,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4
+
+read_mat mat_b,2,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0
+
+mul_mat mat_a,mat_b,mat_c
+
+print_mat mat_c
+
+trans_mat mat_c mat_a
+
+print_mat mat_a
+
+stop
+
